@@ -1,0 +1,91 @@
+<!-- Create your About page here -->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+
+          <link rel="stylesheet" href="https://igoradamenko.github.io/awsm.css/css/awsm.css">
+          <link rel="stylesheet" href="./style/style.css">
+
+        <title>About</title>
+        
+        <meta charset="utf-8">
+
+    </head>
+
+    <a name="top"></a>
+
+    <body>
+
+        <script>
+            
+                window.onload = function(){
+
+                    var div_container = document.getElementById("websites");
+                    var text = document.createTextNode("iNaturalist");
+                    var text1 = document.createTextNode(" is one of the social network that is used for naturalist, and scientists who share their information about different species.");
+                    var links = document.createElement("a");
+                    
+                    links.setAttribute("href", "https://www.inaturalist.org/taxa/12942-Sialia-sialis");
+                    links.setAttribute("target", "_blank");
+                    div_container.appendChild(text);
+                    div_container.appendChild(links);
+                    links.appendChild(text);
+                    div_container.appendChild(text1);
+                }
+
+        </script>
+
+        <header class="header-style">About</header>
+
+        <nav>
+            <ul id="ul-style">
+                <li><a href="index.html" style="color: white;">Home</a></li>
+                <li><a href="about.html" style="color: white;">About</a></li>
+                <li><a href="honesty.html" style="color: white;">Honesty</a></li>
+           </ul>
+       
+        </nav>
+
+        <h1>Resources</h1>
+
+        <article>
+
+        <div id="websites">
+            
+            
+            <img src="./images/iNaturalist.jpg">
+            <br/>
+
+        </div>
+        <p>
+            <img src="./images/Audubon.jpg">
+
+            <br/>
+           <a href="https://www.audubon.org/field-guide/bird/eastern-bluebird" target="_blank">Audubon</a>
+            is an American National Audubon Society, and one the organization that protects birds and their habitats.
+        </p>
+        <p>
+            <img src="./images/Allaboutbird.jpg">
+
+            <a href="https://www.allaboutbirds.org/guide/Eastern_Bluebird/id" target="_blank">Allaboutbirds</a>
+            is a free resource that has various kinds of information about birds.
+        </p>
+        <p align="justify">
+            <img src="./images/NestWatch.jpg">
+            <a href="https://nestwatch.org/learn/focal-species/eastern-bluebird/" target="_blank">NestWatch</a>
+            is one of the nest-monitoring website that is used for tracking the status of the birds. It has statistics about birds biologies. NestWatch is user firendly and it can be used by anyone.
+        </p>
+
+        </article>
+
+
+        <footer style="font-weight: bolder;font-size:20px;" id="footer">
+
+            <a href="#top">Back To Top</a>
+     </footer>
+
+    </body>
+</html>
+
